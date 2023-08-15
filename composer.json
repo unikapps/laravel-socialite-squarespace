@@ -1,0 +1,22 @@
+{
+    "name": "unikapps/laravel-socialite-squarespace",
+    "description": "Laravel socialite provider for Squarespace",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Unikapps\\LaravelSocialiteSquarespace\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rachid Es-sakhi",
+            "email": "ressakhi.work@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "ext-json": "*",
+        "socialiteproviders/manager": "^4"
+    }
+}
