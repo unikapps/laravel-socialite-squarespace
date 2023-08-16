@@ -69,7 +69,7 @@ class Provider extends AbstractProvider
     {
         return [
             'Authorization' => 'Basic ' . base64_encode(sprintf('%s:%s', $this->clientId, $this->clientSecret)),
-            'Content-Type' => 'application/json',
+            'Content-Type' => 'application/x-www-form-urlencoded',
             'Accept' => 'application/json'
         ];
     }
